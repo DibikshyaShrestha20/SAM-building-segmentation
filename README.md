@@ -1,11 +1,10 @@
 # SAM Building Segmentation
 
 Automatic building extraction from aerial/drone imagery using Meta's
-[Segment Anything Model (SAM)](https://github.com/facebookresearch/segment-anything),
+[Segment Anything Model (SAM)]
 with size/shape filtering and export to a binary mask (PNG) and polygons (GeoJSON).
 
-[!(https://github.com/mankumarigit123)](https://colab.research.google.com/github/YOUR_USERNAME/sam-building-segmentation/blob/main/sam_building_segmentation.ipynb)
-
+[!(https://github.com/mankumarigit123)]
 ## Results
 
 |Input|Building mask|
