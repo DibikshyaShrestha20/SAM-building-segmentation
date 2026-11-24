@@ -8,4 +8,4 @@ geopandas
 shapely
 ipywidgets
 requests
-segment-anything @ git+https://github.com/facebookresearch/segment-anything.git
+segment-anything 
