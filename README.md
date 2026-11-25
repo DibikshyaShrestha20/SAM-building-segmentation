@@ -26,15 +26,6 @@ after filtering and 501 were exported as polygons.
 4. Optionally segment a single building from a point prompt (`SamPredictor`)
 5. Export a combined binary mask and building polygons
 
-## Usage
-
-1. Click the **Open in Colab** badge above
-2. Set the runtime to **GPU** (Runtime → Change runtime type)
-3. Run all cells and upload your own aerial image when prompted
-
-The model weights (\~2.4 GB) are downloaded automatically on the first run.
-Use `vit\_b` or `vit\_l` in `MODEL\_TYPE` for a smaller, faster model.
-
 ## Outputs
 
 * `building\_mask.png`: combined binary building mask
@@ -48,8 +39,15 @@ coordinates with `rasterio`.
 * Filtering is size/shape based, so non-building objects (e.g. courtyards,
 roads) can pass through. Tune the parameters per image.
 
-## Credits
 
+# Developed By
+[@mankumarigit123] (https://github.com/mankumarigit123)
+[@DibikshyaShrestha20] (https://github.com/DibikshyaShrestha20)
+
+
+
+## Credits
+This project was developed as part of work conducted at Kathmandu Metropolitan City (KMC).
 Built with [Segment Anything](https://github.com/facebookresearch/segment-anything) (Apache 2.0).
 
 ## License
